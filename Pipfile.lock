@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3943162555d26dd7c1f35913f0a546d28950ff2f26f92d86ac63479b469d3b34"
+            "sha256": "a9ea5aa9a86e9845f55824689de496bcf8e291aab58d5185cefd670e2bf46a04"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.36.0"
+        },
+        "gunicorn": {
+            "hashes": [
+                "sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e",
+                "sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8"
+            ],
+            "index": "pypi",
+            "version": "==20.1.0"
         },
         "joblib": {
             "hashes": [
@@ -371,6 +379,14 @@
             ],
             "index": "pypi",
             "version": "==0.11.2"
+        },
+        "setuptools": {
+            "hashes": [
+                "sha256:7f4bc85450898a09f76ebf28b72fa25bc7111f6c7d665d514a60bba9c75ef2a9",
+                "sha256:a3ca5857c89f82f5c9410e8508cb32f4872a3bafd4aa7ae122a24ca33bccc750"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==65.2.0"
         },
         "six": {
             "hashes": [
