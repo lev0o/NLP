@@ -15,9 +15,12 @@ app = Flask('NLP')
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    customer = request
+    text = request.data.decode('utf-8')
 
-    X = tfid.transform([customer])
+    X = tfid.transform([text])
     y_pred = model.predict(X)
 
-    return y_pred
+    return y_pred[0]
+
+if __name__ == "__main__":
+    app.run(debug=True, host='0.0.0.0', port=9696)
