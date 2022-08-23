@@ -9,6 +9,8 @@ seaborn = "*"
 sklearn = "*"
 numpy = "*"
 gunicorn = "*"
+flask = "*"
+requests = "*"
 
 [dev-packages]
 
